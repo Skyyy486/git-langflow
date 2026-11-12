@@ -1,0 +1,18 @@
+COURSE: Introduction to Artificial Intelligence & Computer Science
+TOPIC: Retrieval-Augmented Generation (RAG) Architecture
+
+1. Overview
+Retrieval-Augmented Generation (RAG) is an AI architecture that enhances Large Language Models (LLMs) by retrieving relevant facts from an external knowledge base before generating an answer.
+
+2. Core Components:
+- Document Parsing & Chunking: Breaking raw text or documents into semantic chunks.
+- Vector Embeddings: Transforming text chunks into dense mathematical vector representations.
+- Vector Database / Index: Storing high-dimensional embeddings for low-latency similarity queries.
+- Similarity Search (Retriever): Matching user queries against vector indices using cosine similarity.
+- Prompt Augmentation: Injecting retrieved context chunks into the model prompt.
+- Generation: The LLM produces a grounded, hallucination-resistant response citing source materials.
+
+3. Key Benefits for Academic Assistance:
+- Up-to-date knowledge without expensive model fine-tuning.
+- Grounded citations reducing hallucination in technical subjects.
+- Domain-specific customization for student learning materials.
